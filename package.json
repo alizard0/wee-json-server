@@ -1,0 +1,23 @@
+{
+  "name": "wee-json-server",
+  "version": "1.0.0",
+  "description": "a wee webserver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alizard0/wee-json-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alizard0/wee-json-server/issues"
+  },
+  "homepage": "https://github.com/alizard0/wee-json-server#readme",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}

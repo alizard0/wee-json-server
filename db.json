@@ -1,0 +1,26 @@
+{
+	"posts": [
+		{
+			"id": 1,
+			"title": "first post",
+			"author": "john"
+		}, 
+		{
+			"id": 2,
+			"title": "second post",
+			"author": "john"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"postId": "2",
+			"body": "boo!"
+		}, 
+		{
+			"id": 2,
+			"postId": "1",
+			"body": "ta-da"
+		}
+	]
+}
