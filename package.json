@@ -4,7 +4,7 @@
   "description": "a wee webserver",
   "main": "server.js",
   "scripts": {
-    "test": "mocha tests/*",
+    "test": "mocha --exit tests/*",
     "start": "node server.js"
   },
   "repository": {
