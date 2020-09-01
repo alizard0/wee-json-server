@@ -5,6 +5,9 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
+// for testing
+module.exports = server
+
 // set server on /api
 server.use('/api', router)
 
@@ -30,4 +33,3 @@ server.use(router)
 server.listen(3000, () => {
 	console.log('Running ...')
 })
-
